@@ -7,7 +7,7 @@ const FormWrapper: React.FC = () => {
   const [currency, setCurrency] = useState<string>('SOL');
 
   return (
-    <div className="form-w">
+    <div className="form-w lg:w-[50%]">
       <div className="w-form">
         <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="665a094f145951bafa9ed757" data-wf-element-id="751a1c95-52bc-f4be-d8fe-767da3594de2">
           <CurrencyOptions setCurrency={setCurrency} activeCurrency={currency} />

@@ -241,9 +241,10 @@ const CurrencyOptions: React.FC<CurrencyOptionsProps> = ({ setCurrency, activeCu
         style={{ border: getBorderStyle('Cards') }}
       >
         <img
-          src="/images/cards.svg"
+          src="/card.png"
           loading="lazy"
           id="w-node-_5e8c9412-09b7-3445-1db5-d9b828961c18-fa9ed757"
+          sizes="(max-width: 991px) 12.5px, 2vw"
           alt=""
           className="logo-s"
         />
