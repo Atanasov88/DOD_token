@@ -20,7 +20,6 @@ const HeadingHolder: React.FC = () => {
               1 $DOD = $0.0000004
             </div>
           </div>
-          {/* <div className="line"></div> */}
           <br />
         </div>
       </div>
