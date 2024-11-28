@@ -1,0 +1,92 @@
+.container {
+  padding-top: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 950px) {
+  .container {
+    padding-top: 56px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 24px;
+  }
+}
+
+.imageContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.buttonContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.buttonTelegram {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.7) 0%,
+    rgba(9, 9, 121, 0.7) 50%,
+    rgba(2, 0, 36, 0.7) 100%
+  );
+}
+
+.buttonShadow {
+}
+
+.buttonTwitter {
+  background-image: linear-gradient(
+    90deg,
+    rgba(245, 0, 87, 0.7) 0%,
+    rgba(174, 13, 216, 0.7) 50%,
+    rgba(245, 0, 87, 0.7) 100%
+  );
+}
+
+.buttonBuy {
+  background-image: linear-gradient(
+    90deg,
+    rgba(232, 214, 0, 0.7) 0%,
+    rgba(234, 244, 247, 0.7) 50%,
+    rgba(232, 214, 0, 0.7) 100%
+  );
+}
+
+.buttonAudit {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(112, 112, 112, 0.7) 50%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+}
+
+.buttonWhitePaper {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(112, 112, 112, 0.7) 50%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+}
+
+.button {
+  font-size: 23px;
+}
+
+.buttonApp {
+  font-size: 18px;
+}
+
+.earth-mars {
+  margin: 0px 20px;
+}
+
+.earth-moon {
+  margin: 0px 20px;
+}

@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #ebf3fa;
+  color: rgb(var(--foreground-rgb));
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-poppins {
+  font-family: "Poppins";
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-montserrat {
+  font-family: "Montserrat";
+}
+
+.font-small-caps {
+  font-variant: all-small-caps;
+}
+
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    #00000033 31.07%,
+    #00000066 86.75%
+  ) !important;
+  border-width: 2px;
+  border-color: black;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  min-width: 64px;
+}
+
+.countdown-sub {
+  font-size: 1rem;
+  color: #aaa;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .countdown {
+    font-size: 24px;
+    width: 48px;
+  }
+
+  .countdown-sub {
+    font-size: 0.75rem;
+    color: #aaa;
+    text-align: center;
+  }
+}
+
+.section-header {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  /* identical to box height */
+  text-align: center;
+  background: linear-gradient(180deg, #bebfb9 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.responsive-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+  .responsive-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .responsive-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
