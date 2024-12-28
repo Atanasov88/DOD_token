@@ -18,14 +18,7 @@ export default function Home() {
         className="flex flex-col items-center justify-between overflow-hidden bg-clouds"
         id="home"
       >
-        <Hero />
-        <BuyPresale />
-        <LiveChart />
-        <JoinPresale />
-        <Roadmap />
-        <Heroes />
-        <HowToBuy />
-        <ListedOn />
+   
       </main>
       <Footer />
     </>
