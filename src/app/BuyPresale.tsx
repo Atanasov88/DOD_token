@@ -60,7 +60,7 @@ const BuyPresale = () => {
             "CA RENOUNCED",
             "28% Marketing/Team/Presale",
             "72% Liquidity",
-            "Taxes 0%",
+            "Taxes 2.5%",
             "Supply: 36 Trillion",
           ].map((text, index) => (
             <div

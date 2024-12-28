@@ -33,7 +33,7 @@ const SocialIcons = () => {
         />
       </a>
       <a
-        href="https://t.me/filmtvdodsol"
+        href="https://t.me/"
         target="_blank"
         rel="noopener noreferrer"
       >

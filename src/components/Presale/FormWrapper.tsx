@@ -23,7 +23,7 @@ const FormWrapper: React.FC = () => {
             value="Confirm Transaction with Customer Service"
           />
           <a
-            href="https://t.me/filmtvdodsol"
+            href="https://t.me/"
             target="_blank"
             className="button-gradient sub-btn w-button"
           >
@@ -37,7 +37,7 @@ const FormWrapper: React.FC = () => {
           <div>Oops! Something went wrong while submitting the form.</div>
         </div> */}
         <div className="social-icons">
-          <a href="https://t.me/filmtvdodsol" target="_blank">
+          <a href="https://t.me/" target="_blank">
             <img src="/telegram.svg" />
           </a>
           {/* <a href="https://t.me/filmtvdodsol" target="_blank">

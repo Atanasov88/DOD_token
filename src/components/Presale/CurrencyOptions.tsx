@@ -217,7 +217,7 @@ const CurrencyOptions: React.FC<CurrencyOptionsProps> = ({ setCurrency, activeCu
       <label
         data-to="8"
         id="w-node-_2dfd7fca-120e-5da3-3456-1bc0ecfd9135-fa9ed757"
-        className="c-item w-radio"
+        className="c-item usdc-btn w-radio"
         style={{ border: getBorderStyle('Other Coins') }}
       >
         <div className="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button w-radio-input"></div>
